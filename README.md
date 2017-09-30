@@ -1,2 +1,3 @@
 # bee-wishlist-api
-API for BeeWishlist
+
+API for Bee Wishlist
