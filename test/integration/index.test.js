@@ -29,7 +29,7 @@ describe('App', function () {
       .end(done);
   });
 
-  it('Should det info by id', function (done) {
+  it('Should del info by id', function (done) {
     request(this.server)
       .del('/v1/info/1')
       .expect((res) => {

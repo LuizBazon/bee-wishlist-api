@@ -38,11 +38,4 @@ describe('InfoApiRepository', function () {
   it('Should throw exception when not given an url', function () {
     expect(() => new InfoApiRepository()).to.throwException(/Missing baseUrl parameter/);
   });
-
-  describe('Mocks', function mocks() {
-    it('All expectations should have been met', function mockExpectations() {
-      expect(nock.isDone()).to.be(true);
-      expect(nock.pendingMocks()).to.have.length(0);
-    });
-  });
 });
